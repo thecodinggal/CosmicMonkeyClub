@@ -16,7 +16,7 @@ function Footer(){
         </div>
         <div className="text-center md:text-right pt-4 inline-block mt-auto">
           <SocialMedia />
-          <span>&copy; 2021 Cosmic Monkey Club</span>
+          <div className="pt-4">&copy; 2021 Cosmic Monkey Club</div>
         </div>
       </div>
     )
