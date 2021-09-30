@@ -14,8 +14,8 @@
 
 
 body{
-    background: radial-gradient(circle at bottom, #210049 0, black 100%);
-    font-family: 'Roborto', sans-serif, serif;
+    background: radial-gradient(circle at bottom, navy 0, black 100%);
+    font-family: 'Varela', sans-serif, serif;
     /* background: linear-gradient(black, #25214a); */
 
     /*height: 100vh;

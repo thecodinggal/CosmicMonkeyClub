@@ -33,7 +33,7 @@ const IndexPage = () => {
             <div className="socialMediaIcons text-center">
               <SocialMedia size="lg"/>
             </div>
-            <div className="animate-pulse transform -rotate-90 absolute scrollDown -right-2 text-xs"><FontAwesomeIcon icon={faArrowLeft}/>  Scroll down</div>
+            <div className="animate-pulse transform -rotate-90 absolute scrollDown -right-2 text-xs"><FontAwesomeIcon icon={faArrowLeft}/>  Explore more</div>
           </div>
         </section>
       </div>
