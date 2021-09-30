@@ -4,7 +4,17 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        twinkle: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '.2' },
+        }
+      },
+      animation: {
+        twinkle: 'twinkle 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+      }
+    },
     colors: {
       white: '#fff',
       black: '#000',
