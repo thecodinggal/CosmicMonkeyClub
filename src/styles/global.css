@@ -4,14 +4,9 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roborto';
-  src: local('Roborto'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Varela';
   src: local('Varela'), url(../fonts/Varela_Round/VarelaRound-Regular.ttf) format('truetype');
 }
-
 
 body{
     background: radial-gradient(circle at bottom, navy 0, black 100%);
@@ -22,7 +17,6 @@ body{
     overflow: hidden;*/
   }
 
-  
 
   .scrollDown{
     bottom: 6vh;
