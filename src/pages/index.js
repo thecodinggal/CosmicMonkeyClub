@@ -7,6 +7,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../components/socialmedia";
 import Footer from "../components/footer";
 
+
 // page
 const IndexPage = () => {
   return (
