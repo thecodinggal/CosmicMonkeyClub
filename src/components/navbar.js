@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import { StaticImage } from "gatsby-plugin-image";
+//import { StaticImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "./socialmedia";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg shadow">
+      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-black shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/" className="inline-block mr-4">
@@ -39,7 +39,7 @@ export default function Navbar() {
             id="example-navbar-warning"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="flex items-center">
+              <li className="md:flex items-center">
                 <Link to="/#">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Mint
@@ -67,7 +67,7 @@ export default function Navbar() {
                   </span>
                 </Link>
               </li>
-              <li className="flex items-center">
+              <li className="lg: pl-10 lg:flex items-center text-center inline-block">
               <SocialMedia />
               </li>
             </ul>

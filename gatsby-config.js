@@ -7,7 +7,15 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,      //for images
-    `gatsby-plugin-sharp`,      //for images
+    {
+      resolve: `gatsby-plugin-sharp`, //for images
+      options: {
+        defaults: {
+          placeholder: `dominantColor`,
+          backgroundColor: `transparent`,
+        },
+      },
+    },
     `gatsby-transformer-sharp`, //for images
     'gatsby-plugin-postcss',    //for tailwindcss
     'gatsby-plugin-react-helmet', //react helmet
