@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .indent{
+    text-indent: 2em;
+  }
+}
+
 @font-face {
   font-family: 'Varela';
   src: local('Varela'), url(../fonts/Varela_Round/VarelaRound-Regular.ttf) format('truetype');
@@ -11,12 +17,7 @@
 body{
     background: radial-gradient(circle at bottom, navy 0, black 100%);
     font-family: 'Varela', sans-serif, serif;
-    /* background: linear-gradient(black, #25214a); */
-
-    /*height: 100vh;
-    overflow: hidden;*/
   }
-
 
   .scrollDown{
     bottom: 6vh;
@@ -27,7 +28,6 @@ body{
   }
   
   .space {
-    /*background: rgba(128, 0, 128, 0.1) center / 200px 200px round;*/
     background: transparent center / 200px 200px round;
     bottom: 0;
     left: 0;
@@ -69,8 +69,7 @@ body{
       radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
-  } */
- 
+  } 
   @keyframes space {
     40% {
       opacity: 0.25;
@@ -78,4 +77,4 @@ body{
     100% {
       transform: rotate(360deg);
     }
-  }
+  }*/

@@ -54,6 +54,13 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="flex items-center">
+                <Link to="#story">
+                  <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
+                    Story
+                  </span>
+                </Link>
+              </li>
+              <li className="flex items-center">
                 <Link to="/#">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Team
