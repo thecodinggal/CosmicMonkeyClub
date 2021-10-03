@@ -6,7 +6,7 @@ function Footer(){
     return(
         <div className="pt-6 grid grid-cols-1 md:grid-cols-3">
         <div className="inline-block text-center md:text-left pb-6 md:pb-0"></div>
-        <div className="inline-block inline-block text-center">
+        <div className="inline-block text-center">
           <StaticImage
             src="../images/csm-logo.png"
             alt="Cosmic Space Monkey Logo"

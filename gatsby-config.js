@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-sharp`,      //for images
     `gatsby-transformer-sharp`, //for images
     'gatsby-plugin-postcss',    //for tailwindcss
+    'gatsby-plugin-react-helmet', //react helmet
     `gatsby-plugin-fontawesome-css`,  //fontawesome smooth loading
     {
       resolve: 'gatsby-plugin-s3',

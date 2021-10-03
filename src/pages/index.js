@@ -6,12 +6,20 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import SocialMedia from "../components/socialmedia";
 import Footer from "../components/footer";
+import { Helmet } from "react-helmet";
 
 
 // page
 const IndexPage = () => {
   return (
-    <main className="text-white container mx-auto overflow-hidden">
+    <main className="text-white container mx-auto">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Cosmic Monkey Club</title>
+      <meta name="description" content="Join and explore the vast community of the Cosmic Monkey Club!"/>
+      <meta name="keywords" content="NFT, Cosmic Monkey, Cosmic Space Monkey"/>
+      <meta name="author" content="Cosmic Labs LLC" />
+    </Helmet>
       <div className="pt-4 lg:px-20">
         <div class="space stars1 animate-twinkle"></div>
         <div class="space stars2 z-0"></div>
