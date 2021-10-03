@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import FullImageSection from "../components/fullImageSection";
 import FullTextSection from "../components/FullTextSection";
+import Roadmap from "../components/roadmap";
 
 // page
 const IndexPage = () => {
@@ -15,10 +16,11 @@ const IndexPage = () => {
         <FullTextSection
           header="Welcome to the Cosmic Monkey Club"
           body={[
-            "10,000 Space Monkeys were launched into The Void with efforts to create an appreciating asset with meaningful real-world incentives.",
+            "Cosmic Monkey CLub is a collection of 10,000 NFTS on the Ethereum blockchain. The 10,000 Space Monkeys were launched into The Void with efforts to create an appreciating asset with meaningful real-world incentives.",
             "See the full story below.",
           ]}
         />
+        <Roadmap />
         <FullTextSection
           id="story"
           header="The Journey"
