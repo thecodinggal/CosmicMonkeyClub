@@ -15,10 +15,10 @@ export default function Roadmap() {
         />
         <div
           id="infographic"
-          class="d-flex flex-column align-items-center py-5"
+          className="d-flex flex-column align-items-center py-5"
         >
-          <div class="step one">
-            <div class="circle">
+          <div className="step one">
+            <div className="circle">
               <FontAwesomeIcon className="text-7xl" icon={faGlobeEurope} />
               <h4>
                 Orbital 1<br />
@@ -26,12 +26,12 @@ export default function Roadmap() {
               </h4>
             </div>
             <article data-step="1">
-              <header class="d-flex align-items-center text-primary">
+              <header className="d-flex align-items-center text-primary">
                 <FontAwesomeIcon icon={faMeteor} />
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -40,21 +40,21 @@ export default function Roadmap() {
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
 
-                <div class="d-flex justify-content-between mt-3 controls">
+                <div className="d-flex justify-content-between mt-3 controls">
                   <a> </a>
-                  <a class="btn btn-outline-primary" href="#">
+                  <a className="btn btn-outline-primary" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="2">
-              <header class="d-flex align-items-center text-primary">
-                <i class="fas fa-meteor"></i>
+              <header className="d-flex align-items-center text-primary">
+                <i className="fas fa-meteor"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -62,23 +62,23 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-primary" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-primary" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-primary" href="#">
+                  <a className="btn btn-outline-primary" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="3">
-              <header class="d-flex align-items-center text-primary">
-                <i class="fas fa-meteor"></i>
+              <header className="d-flex align-items-center text-primary">
+                <i className="fas fa-meteor"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -86,23 +86,23 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-primary" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-primary" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-primary" href="#">
+                  <a className="btn btn-outline-primary" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="4">
-              <header class="d-flex align-items-center text-primary">
-                <i class="fas fa-meteor"></i>
+              <header className="d-flex align-items-center text-primary">
+                <i className="fas fa-meteor"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -110,23 +110,23 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-primary" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-primary" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-primary" href="#">
+                  <a className="btn btn-outline-primary" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="5">
-              <header class="d-flex align-items-center text-primary">
-                <i class="fas fa-meteor"></i>
+              <header className="d-flex align-items-center text-primary">
+                <i className="fas fa-meteor"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -134,20 +134,20 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-primary" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-primary" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-primary" href="#">
+                  <a className="btn btn-outline-primary" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
           </div>
-          <div class="step two text-success">
-            <div class="circle">
-              <i class="fas fa-cookie-bite"></i>
+          <div className="step two text-success">
+            <div className="circle">
+              <i className="fas fa-cookie-bite"></i>
               <h4>
                 STEP 2.
                 <br />
@@ -155,12 +155,12 @@ export default function Roadmap() {
               </h4>
             </div>
             <article data-step="6">
-              <header class="d-flex align-items-center text-success">
-                <i class="fas fa-cookie-bite"></i>
+              <header className="d-flex align-items-center text-success">
+                <i className="fas fa-cookie-bite"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -169,23 +169,23 @@ export default function Roadmap() {
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
 
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-success" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-success" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-success" href="#">
+                  <a className="btn btn-outline-success" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="7">
-              <header class="d-flex align-items-center text-success">
-                <i class="fas fa-cookie-bite"></i>
+              <header className="d-flex align-items-center text-success">
+                <i className="fas fa-cookie-bite"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -193,23 +193,23 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-success" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-success" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-success" href="#">
+                  <a className="btn btn-outline-success" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="8">
-              <header class="d-flex align-items-center text-success">
-                <i class="fas fa-cookie-bite"></i>
+              <header className="d-flex align-items-center text-success">
+                <i className="fas fa-cookie-bite"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -217,23 +217,23 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-success" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-success" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-success" href="#">
+                  <a className="btn btn-outline-success" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="9">
-              <header class="d-flex align-items-center text-success">
-                <i class="fas fa-cookie-bite"></i>
+              <header className="d-flex align-items-center text-success">
+                <i className="fas fa-cookie-bite"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -241,23 +241,23 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-success" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-success" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-success" href="#">
+                  <a className="btn btn-outline-success" href="#">
                     Next
                   </a>
                 </div>
               </div>
             </article>
             <article data-step="10">
-              <header class="d-flex align-items-center text-success">
-                <i class="fas fa-cookie-bite"></i>
+              <header className="d-flex align-items-center text-success">
+                <i className="fas fa-cookie-bite"></i>
                 <h6>Lorem Ipsum dolor sit Amet</h6>
               </header>
 
-              <div class="body">
+              <div className="body">
                 <small>
                   {" "}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -265,11 +265,11 @@ export default function Roadmap() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.{" "}
                 </small>
-                <div class="d-flex justify-content-between mt-3 controls">
-                  <a class="btn btn-outline-success" href="#">
+                <div className="d-flex justify-content-between mt-3 controls">
+                  <a className="btn btn-outline-success" href="#">
                     Prev
                   </a>
-                  <a class="btn btn-outline-success" href="#">
+                  <a className="btn btn-outline-success" href="#">
                     Next
                   </a>
                 </div>
