@@ -1,12 +1,12 @@
 import React from "react";
 import FullTextSection from "./FullTextSection";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobeEurope, faMeteor } from "@fortawesome/free-solid-svg-icons";
+import { faGlobeEurope, faMeteor, faRocket } from "@fortawesome/free-solid-svg-icons";
 
 export default function Roadmap() {
   return (
     <section>
-      <div className="px-40">
+      <div>
         <FullTextSection
           header="Oribital Milestones"
           body={[
@@ -15,265 +15,122 @@ export default function Roadmap() {
         />
         <div
           id="infographic"
-          className="d-flex flex-column align-items-center py-5"
+          className="flex flex-col items-center py-5"
         >
           <div className="step one">
             <div className="circle">
-              <FontAwesomeIcon className="text-7xl" icon={faGlobeEurope} />
+              <span><FontAwesomeIcon className="text-7xl" icon={faGlobeEurope} /></span>
               <h4>
-                Orbital 1<br />
-                Ready for this?
+                Phase 1 Missions
               </h4>
             </div>
             <article data-step="1">
-              <header className="d-flex align-items-center text-primary">
-                <FontAwesomeIcon icon={faMeteor} />
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+                <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Public Mint/Half Metadata Reveal</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a> </a>
-                  <a className="btn btn-outline-primary" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="2">
-              <header className="d-flex align-items-center text-primary">
-                <i className="fas fa-meteor"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Full Metadata Reveal</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-primary" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-primary" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="3">
-              <header className="d-flex align-items-center text-primary">
-                <i className="fas fa-meteor"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Reward All Holding Owners From Mint An Exclusive Poap *Poap* - https://Poap.Xyz/</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-primary" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-primary" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="4">
-              <header className="d-flex align-items-center text-primary">
-                <i className="fas fa-meteor"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Exclusive Merchandise Drop to All Cosmic Monkey Holders</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-primary" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-primary" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="5">
-              <header className="d-flex align-items-center text-primary">
-                <i className="fas fa-meteor"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Teaser Trailer for Animated Series (Introduce New Character)</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-primary" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-primary" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
           </div>
-          <div className="step two text-success">
+          <div className="step two ">
             <div className="circle">
-              <i className="fas fa-cookie-bite"></i>
+              <span><FontAwesomeIcon icon={faRocket} /></span>
               <h4>
-                STEP 2.
-                <br />
-                You're doing great!
+                Phase 2
               </h4>
             </div>
             <article data-step="6">
-              <header className="d-flex align-items-center text-success">
-                <i className="fas fa-cookie-bite"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>CMC Podcast w/ Exclusive Members (Ft. Paid Participants) Weekly/Bi-monthly</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-success" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-success" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="7">
-              <header className="d-flex align-items-center text-success">
-                <i className="fas fa-cookie-bite"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Casino Update</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-success" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-success" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="8">
-              <header className="d-flex align-items-center text-success">
-                <i className="fas fa-cookie-bite"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Launch Second NFT Collection Featuring New Main Character Seen in Teaser Trailer (Presale to Existing Holders)</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-success" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-success" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="9">
-              <header className="d-flex align-items-center text-success">
-                <i className="fas fa-cookie-bite"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Announce New Partnerships/Exclusive Events</h6>
               </header>
-
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-success" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-success" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
             </article>
             <article data-step="10">
-              <header className="d-flex align-items-center text-success">
-                <i className="fas fa-cookie-bite"></i>
-                <h6>Lorem Ipsum dolor sit Amet</h6>
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Full Animated Series Trailer</h6>
               </header>
+            </article>
+          </div>
 
-              <div className="body">
-                <small>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
-                </small>
-                <div className="d-flex justify-content-between mt-3 controls">
-                  <a className="btn btn-outline-success" href="#">
-                    Prev
-                  </a>
-                  <a className="btn btn-outline-success" href="#">
-                    Next
-                  </a>
-                </div>
-              </div>
+
+          <div className="step three">
+            <div className="circle">
+              <span><FontAwesomeIcon className="text-7xl" icon={faGlobeEurope} /></span>
+              <h4>
+                Phase 3 Missions
+              </h4>
+            </div>
+            <article data-step="11">
+              <header className="flex items-center ">
+                <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Cage Your Ape for X Days and Receive New 3D Render NFT of Your Monkey</h6>
+              </header>
+            </article>
+            <article data-step="12">
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>IRL Private Members Club Partnership Announced</h6>
+              </header>
+            </article>
+            <article data-step="13">
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Exclusive CMC Casino Launch</h6>
+              </header>
+            </article>
+            <article data-step="14">
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Exclusive Members Only Events/Meetups</h6>
+              </header>
+            </article>
+            <article data-step="15">
+              <header className="flex items-center ">
+              <span><FontAwesomeIcon icon={faMeteor} /></span>
+                <h6>Episode One Release of Series</h6>
+              </header>
             </article>
           </div>
         </div>

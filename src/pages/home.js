@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
     <main className="text-white pt-16">
       <Navbar />
-      <section className="container mx-auto lg:px-40">
+      <section className="container mx-auto">
         <FullImageSection />
         <FullTextSection
           header="Welcome to the Cosmic Monkey Club"
@@ -20,10 +20,11 @@ const IndexPage = () => {
             "See the full story below.",
           ]}
         />
-        <Roadmap />
+      <Roadmap />
         <FullTextSection
           id="story"
           header="The Journey"
+          decor="borders"
           body={[
             "Our complicated universe is fractionalized into dimensions in which our brain processes as atoms. Therefore, a two-dimensional object is made up of one-dimensional objects, in which the two-dimensional object can perceive the first dimension. A three-dimensional object is made up of two-dimensional objects allowing the three-dimensional object the ability to process and perceive the second dimension. Our three-dimensional universe is relative to space, as in, space being infinite. The fourth dimension is relative to time, as in, time being infinite.",
             "The beings before us developed a plant-based vortex, The Void, made up of active mycelium. The spherical field of energy they created allowed them to travel faster than the speed of light, instantly. The scientists of the Cosmic Monkey Club evolved and created the travel TO TIME. The Cosmic scientists were skeptical of their discovery and tested their mechanism on monkeys as a monkey’s brain has the most closely related chemical structure and physical capabilities to a homosapien. Their ambitions and motives to send the monkeys through The Void was to discover the fourth dimension, time.",

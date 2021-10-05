@@ -96,9 +96,9 @@ body{
  #infographic :not(:nth-child(even)) .circle {
     transform: translateX(-100%);
  }
- #infographic .circle i {
+ #infographic .circle span {
     font-size: 5em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: currentColor;
  }
  #infographic article {
@@ -109,7 +109,7 @@ body{
     position: relative;
  }
 
- #infographic article header i {
+ #infographic article header span {
     display: flex;
     font-size: 2em;
     border-radius: 50%;
@@ -117,39 +117,26 @@ body{
     padding: 14px;
     transition: transform 0.4s;
     color: #fff;
-    border: 16px solid var(--bgColor);
-    margin: -16px 0 -16px -20px;
  }
  #infographic article header h6 {
     text-transform: uppercase;
     margin: 0 30px;
     padding: 5px;
  }
- #infographic article .body {
-    background: var(--bgColor);
-    padding: 0 20px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    max-height: 0;
-    transition: max-height 0.5s, padding 0.5s;
-    overflow: hidden;
- }
- #infographic article .body .btn {
-    padding: 3px 10px;
-    text-transform: uppercase;
- }
+
+ #infographic article header {
+   border-radius: 30px;
+}
+
  #infographic :nth-child(even) article {
     text-align: right;
     transform: translateX(-100%);
  }
  #infographic :nth-child(even) article header {
     flex-flow: row-reverse;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
  }
- #infographic :nth-child(even) article header i {
-    margin: -16px -20px -16px 0;
- }
+
+
  #infographic article[data-step="1"] {
     margin-left: 20px;
  }
@@ -180,43 +167,54 @@ body{
  #infographic article[data-step="10"] {
     margin-left: 70px;
  }
+ #infographic article[data-step="11"] {
+   margin-left: 60px;
+}
+#infographic article[data-step="12"] {
+   margin-left: 100px;
+}
+#infographic article[data-step="13"] {
+   margin-left: 80px;
+}
+#infographic article[data-step="14"] {
+   margin-left: 30px;
+}
+#infographic article[data-step="15"] {
+   margin-left: -50px;
+}
 
  #infographic .one article header {
     background-color: rgba(37, 59, 143, 0.3);
-    color: #8f2543;
+    color: #007bff;
  }
- #infographic .one article header i {
+ #infographic .one article header span {
     background-color: #007bff;
  }
  #infographic .two article header {
     background-color: rgba(0, 108, 99, 0.1);
     color: #006c63;
  }
- #infographic .two article header i {
+ #infographic .two article header span {
     background-color: #28a745;
  }
  #infographic .three article header {
     background-color: rgba(69, 80, 162, 0.1);
     color: #dc3545;
  }
- #infographic .three article header i {
+ #infographic .three article header span {
     background-color: #dc3545;
  }
- #infographic article:hover header i {
+ #infographic article:hover header span {
     transform: scale(1.2);
  }
  #infographic article.active header {
     border-bottom-right-radius: 0;
  }
- #infographic article.active header i {
+ #infographic article.active header span {
     --opacity: 0.4;
     transform: scale(1) !important;
  }
- #infographic article.active .body {
-    padding: 20px;
-    max-height: 300px;
-    border: 1px solid;
- }
+
  #infographic .two article.active header {
     border-bottom-left-radius: 0;
  }
