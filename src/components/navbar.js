@@ -11,7 +11,7 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-black shadow">
+      <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-black shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link to="/" className="inline-block mr-4">
@@ -40,30 +40,37 @@ export default function Navbar() {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="md:flex items-center">
-                <Link to="/#">
+                <Link to="/home/#mint">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Mint
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="/#">
+                <Link to="/home/#roadmap">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Roadmap
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="#story">
+                <Link to="/home/#story">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Story
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="/#">
+                <Link to="/home/#team">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Team
+                  </span>
+                </Link>
+              </li>
+              <li className="flex items-center">
+                <Link to="/home/#FAQ">
+                  <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
+                    FAQ
                   </span>
                 </Link>
               </li>

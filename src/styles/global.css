@@ -10,10 +10,13 @@
 }
 
 @font-face {
-  font-family: 'Varela';
-  src: local('Varela'), url(../fonts/Varela_Round/VarelaRound-Regular.ttf) format('truetype');
+  font-family: 'Roboto Condensed';
+  src: local('Varela'), url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf) format('truetype');
 }
-
+html{
+   scroll-behavior: smooth;
+ }
+ 
 body{
     background: radial-gradient(circle at bottom, navy 0, black 100%);
     font-family: 'Varela', sans-serif, serif;
@@ -60,8 +63,8 @@ body{
       radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0));
   }
   
-  /* .stars3 {
-    animation: space 300s ease-in-out 1;
+  .stars3 {
+    /* animation: space 300s ease-in-out 1; */
     background-image: 
       radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)), 
@@ -70,17 +73,10 @@ body{
       radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
   } 
-  @keyframes space {
-    40% {
-      opacity: 0.25;
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }*/
+
 
   /* Test roadmap */
- #infographic .circle {
+ #roadmap .circle {
     width: 320px;
     height: 320px;
     border-radius: 50%;
@@ -90,26 +86,22 @@ body{
     justify-content: center;
     text-align: center;
     padding: 40px;
-    position: absolute;
-    left: 50%;
+    /*position: absolute;
+    left: 50%;*/
  }
- #infographic :not(:nth-child(even)) .circle {
+ /* #roadmap :not(:nth-child(even)) .circle {
     transform: translateX(-100%);
- }
- #infographic .circle span {
-    font-size: 5em;
-    margin-bottom: 40px;
-    color: currentColor;
- }
- #infographic article {
+ } */
+
+ #roadmap article {
     max-width: 410px;
     margin-bottom: 20px;
     cursor: pointer;
-    left: 50%;
+    /* left: 50%; */
     position: relative;
  }
 
- #infographic article header span {
+ #roadmap article header span {
     display: flex;
     font-size: 2em;
     border-radius: 50%;
@@ -118,104 +110,105 @@ body{
     transition: transform 0.4s;
     color: #fff;
  }
- #infographic article header h6 {
+ #roadmap article header h6 {
     text-transform: uppercase;
     margin: 0 30px;
     padding: 5px;
  }
 
- #infographic article header {
+ #roadmap article header {
    border-radius: 30px;
 }
 
- #infographic :nth-child(even) article {
+ /* #roadmap :nth-child(even) article {
     text-align: right;
     transform: translateX(-100%);
  }
- #infographic :nth-child(even) article header {
+ #roadmap :nth-child(even) article header {
     flex-flow: row-reverse;
+ } */
+
+ @media (min-width: 768px) {
+   #roadmap article[data-step="1"] {
+      margin-left: 20px;
+   }
+   #roadmap article[data-step="2"] {
+      margin-left: 50px;
+   }
+   #roadmap article[data-step="3"] {
+      margin-left: 46px;
+   }
+   #roadmap article[data-step="4"] {
+      margin-left: 0;
+   }
+   #roadmap article[data-step="5"] {
+      margin-left: -60px;
+   }
+   #roadmap article[data-step="6"] {
+      margin-left: -40px;
+   }
+   #roadmap article[data-step="7"] {
+      margin-left: -60px;
+   }
+   #roadmap article[data-step="8"] {
+      margin-left: -60px;
+   }
+   #roadmap article[data-step="9"] {
+      margin-left: 0;
+   }
+   #roadmap article[data-step="10"] {
+      margin-left: 50px;
+   }
+   #roadmap article[data-step="11"] {
+     margin-left: 20px;
+  }
+  #roadmap article[data-step="12"] {
+     margin-left: 50px;
+  }
+  #roadmap article[data-step="13"] {
+     margin-left: 46px;
+  }
+  #roadmap article[data-step="14"] {
+     margin-left: 0px;
+  }
+  #roadmap article[data-step="15"] {
+     margin-left: -60px;
+  }
  }
 
-
- #infographic article[data-step="1"] {
-    margin-left: 20px;
- }
- #infographic article[data-step="2"] {
-    margin-left: 50px;
- }
- #infographic article[data-step="3"] {
-    margin-left: 46px;
- }
- #infographic article[data-step="4"] {
-    margin-left: 0;
- }
- #infographic article[data-step="5"] {
-    margin-left: -60px;
- }
- #infographic article[data-step="6"] {
-    margin-left: -40px;
- }
- #infographic article[data-step="7"] {
-    margin-left: -70px;
- }
- #infographic article[data-step="8"] {
-    margin-left: -60px;
- }
- #infographic article[data-step="9"] {
-    margin-left: 0;
- }
- #infographic article[data-step="10"] {
-    margin-left: 70px;
- }
- #infographic article[data-step="11"] {
-   margin-left: 60px;
-}
-#infographic article[data-step="12"] {
-   margin-left: 100px;
-}
-#infographic article[data-step="13"] {
-   margin-left: 80px;
-}
-#infographic article[data-step="14"] {
-   margin-left: 30px;
-}
-#infographic article[data-step="15"] {
-   margin-left: -50px;
-}
-
- #infographic .one article header {
+ #roadmap .one article header {
     background-color: rgba(37, 59, 143, 0.3);
     color: #007bff;
  }
- #infographic .one article header span {
+ #roadmap .one article header span {
     background-color: #007bff;
  }
- #infographic .two article header {
+ #roadmap .two article header {
     background-color: rgba(0, 108, 99, 0.1);
     color: #006c63;
  }
- #infographic .two article header span {
+ #roadmap .two article header span {
     background-color: #28a745;
  }
- #infographic .three article header {
+ #roadmap .three article header {
     background-color: rgba(69, 80, 162, 0.1);
     color: #dc3545;
  }
- #infographic .three article header span {
+ #roadmap .three article header span {
     background-color: #dc3545;
  }
- #infographic article:hover header span {
+ #roadmap article:hover header span {
     transform: scale(1.2);
  }
- #infographic article.active header {
+ #roadmap article.active header {
     border-bottom-right-radius: 0;
  }
- #infographic article.active header span {
+ #roadmap article.active header span {
     --opacity: 0.4;
     transform: scale(1) !important;
  }
 
- #infographic .two article.active header {
+ #roadmap .two article.active header {
     border-bottom-left-radius: 0;
  }
  
