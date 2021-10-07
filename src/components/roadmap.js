@@ -8,7 +8,7 @@ export default function Roadmap() {
     <section id="roadmap">
       <div className="mx-auto md:mx-0">
         <FullTextSection
-          header="Oribital Roadmap"
+          header="Mission Briefing"
           body={[
             "Space is a lonely place, so the monkeys take community very seriously. Here's the roadmap for the CMC universe:",
           ]}
