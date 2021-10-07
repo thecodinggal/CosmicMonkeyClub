@@ -17,7 +17,7 @@ module.exports = {
       },
       animation: {
         twinkle: 'twinkle 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        rocket: 'rocket 7s cubic-bezier(0.4, 0, 0.6, 1) 30',
+        rocket: 'rocket 7s cubic-bezier(0.4, 0, 0.6, 1) 40',
       }
     },
     colors: {
