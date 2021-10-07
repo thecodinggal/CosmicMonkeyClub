@@ -9,23 +9,31 @@ module.exports = {
         twinkle: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '.2' },
+        },
+        rocket: {
+          '0%, 100%': { transform: 'translateX(0%)'},
+          '50%': {transform: 'translateX(15%)'},
         }
       },
       animation: {
-        twinkle: 'twinkle 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+        twinkle: 'twinkle 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        rocket: 'rocket 7s cubic-bezier(0.4, 0, 0.6, 1) 30',
       }
     },
     colors: {
       white: '#fff',
       black: '#000',
       spacePurple: '#0f001e',
+      navy: 'navy',
       
       primary: {
         bg: '#210049',
         green: '#64b433',
         lightblue: '#74c7ce',
         red: '#cc4a49',
-        orange: '#ee702d'
+        darkred: '#aa2e25',
+        orange: '#ee702d',
+        purple: '#0f001e'
       }
     }
   },

@@ -3,26 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Roborto';
-  src: local('Roborto'), url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Varela';
-  src: local('Varela'), url(../fonts/Varela_Round/VarelaRound-Regular.ttf) format('truetype');
+@layer utilities {
+  .indent{
+    text-indent: 2em;
+  }
 }
 
-
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: local('Varela'), url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf) format('truetype');
+}
+html{
+   scroll-behavior: smooth;
+ }
+ 
 body{
     background: radial-gradient(circle at bottom, navy 0, black 100%);
     font-family: 'Varela', sans-serif, serif;
-    /* background: linear-gradient(black, #25214a); */
-
-    /*height: 100vh;
-    overflow: hidden;*/
   }
-
-  
 
   .scrollDown{
     bottom: 6vh;
@@ -33,7 +31,6 @@ body{
   }
   
   .space {
-    /*background: rgba(128, 0, 128, 0.1) center / 200px 200px round;*/
     background: transparent center / 200px 200px round;
     bottom: 0;
     left: 0;
@@ -66,8 +63,8 @@ body{
       radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0));
   }
   
-  /* .stars3 {
-    animation: space 300s ease-in-out 1;
+  .stars3 {
+    /* animation: space 300s ease-in-out 1; */
     background-image: 
       radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)), 
@@ -75,13 +72,143 @@ body{
       radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)), 
       radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
-  } */
- 
-  @keyframes space {
-    40% {
-      opacity: 0.25;
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  } 
+
+
+  /* Test roadmap */
+ #roadmap .circle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    /*position: absolute;
+    left: 50%;*/
+ }
+ /* #roadmap :not(:nth-child(even)) .circle {
+    transform: translateX(-100%);
+ } */
+
+ #roadmap article {
+    max-width: 410px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* left: 50%; */
+    position: relative;
+ }
+
+ #roadmap article header span {
+    display: flex;
+    font-size: 2em;
+    border-radius: 50%;
+    background-clip: padding-box;
+    padding: 14px;
+    transition: transform 0.4s;
+    color: #fff;
+ }
+ #roadmap article header h6 {
+    text-transform: uppercase;
+    margin: 0 30px;
+    padding: 5px;
+ }
+
+ #roadmap article header {
+   border-radius: 30px;
+}
+
+ /* #roadmap :nth-child(even) article {
+    text-align: right;
+    transform: translateX(-100%);
+ }
+ #roadmap :nth-child(even) article header {
+    flex-flow: row-reverse;
+ } */
+
+ @media (min-width: 768px) {
+   #roadmap article[data-step="1"] {
+      margin-left: 20px;
+   }
+   #roadmap article[data-step="2"] {
+      margin-left: 50px;
+   }
+   #roadmap article[data-step="3"] {
+      margin-left: 46px;
+   }
+   #roadmap article[data-step="4"] {
+      margin-left: 0;
+   }
+   #roadmap article[data-step="5"] {
+      margin-left: -60px;
+   }
+   #roadmap article[data-step="6"] {
+      margin-left: -40px;
+   }
+   #roadmap article[data-step="7"] {
+      margin-left: -60px;
+   }
+   #roadmap article[data-step="8"] {
+      margin-left: -60px;
+   }
+   #roadmap article[data-step="9"] {
+      margin-left: 0;
+   }
+   #roadmap article[data-step="10"] {
+      margin-left: 50px;
+   }
+   #roadmap article[data-step="11"] {
+     margin-left: 20px;
   }
+  #roadmap article[data-step="12"] {
+     margin-left: 50px;
+  }
+  #roadmap article[data-step="13"] {
+     margin-left: 46px;
+  }
+  #roadmap article[data-step="14"] {
+     margin-left: 0px;
+  }
+  #roadmap article[data-step="15"] {
+     margin-left: -60px;
+  }
+ }
+
+ #roadmap .one article header {
+    background-color: rgba(37, 59, 143, 0.3);
+    color: #007bff;
+ }
+ #roadmap .one article header span {
+    background-color: #007bff;
+ }
+ #roadmap .two article header {
+    background-color: rgba(0, 108, 99, 0.1);
+    color: #006c63;
+ }
+ #roadmap .two article header span {
+    background-color: #28a745;
+ }
+ #roadmap .three article header {
+    background-color: rgba(69, 80, 162, 0.1);
+    color: #dc3545;
+ }
+ #roadmap .three article header span {
+    background-color: #dc3545;
+ }
+ #roadmap article:hover header span {
+    transform: scale(1.2);
+ }
+ #roadmap article.active header {
+    border-bottom-right-radius: 0;
+ }
+ #roadmap article.active header span {
+    --opacity: 0.4;
+    transform: scale(1) !important;
+ }
+
+ #roadmap .two article.active header {
+    border-bottom-left-radius: 0;
+ }
+ 

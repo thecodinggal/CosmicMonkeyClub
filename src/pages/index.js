@@ -7,6 +7,8 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../components/socialmedia";
 import Footer from "../components/footer";
 import { Helmet } from "react-helmet";
+import { Button } from "../components/button";
+
 
 
 // page
@@ -21,9 +23,9 @@ const IndexPage = () => {
       <meta name="author" content="Cosmic Labs LLC" />
     </Helmet>
       <div className="pt-4 lg:px-20">
-        <div class="space stars1 animate-twinkle"></div>
-        <div class="space stars2 z-0"></div>
-        <div class="space stars3 z-0"></div>
+        <div className="space stars1 animate-twinkle"></div>
+        <div className="space stars2 z-0"></div>
+        <div className="space stars3 z-0"></div>
         <div className="text-right pr-6">
           <SocialMedia />
         </div>
@@ -40,7 +42,7 @@ const IndexPage = () => {
             <h1 className="text-3xl">Welcome to the Cosmic Monkey&nbsp;Club</h1>
             <p className="py-4">Get ready to explore</p>
             <div className="socialMediaIcons text-center">
-              <SocialMedia size="lg"/>
+              <Button href="/home">Enter</Button>
             </div>
             <div className="animate-pulse transform -rotate-90 absolute scrollDown -right-2 text-xs"><FontAwesomeIcon icon={faArrowLeft}/>  Explore more</div>
           </div>

@@ -4,11 +4,11 @@ import { StaticImage } from "gatsby-plugin-image";
 
 function Footer(){
     return(
-        <div className="pt-6 grid grid-cols-1 md:grid-cols-3">
+        <div className="py-6 grid grid-cols-1 md:grid-cols-3">
         <div className="inline-block text-center md:text-left pb-6 md:pb-0"></div>
         <div className="inline-block text-center">
           <StaticImage
-            src="../images/csm-logo.png"
+            src="../images/cmc-logo1.png"
             alt="Cosmic Space Monkey Logo"
             placeholder="blurred"
             className="w-40"
