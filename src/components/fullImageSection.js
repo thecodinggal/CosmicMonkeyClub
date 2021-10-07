@@ -1,7 +1,7 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-export default function FullImageSection({ image }) {
+export default function FullImageSection() {
   return (
     <main className="mx-auto">
       <div className="space stars1"></div>

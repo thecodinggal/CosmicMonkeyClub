@@ -24,12 +24,14 @@ module.exports = {
       white: '#fff',
       black: '#000',
       spacePurple: '#0f001e',
+      navy: 'navy',
       
       primary: {
         bg: '#210049',
         green: '#64b433',
         lightblue: '#74c7ce',
         red: '#cc4a49',
+        darkred: '#aa2e25',
         orange: '#ee702d',
         purple: '#0f001e'
       }

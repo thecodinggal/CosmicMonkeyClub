@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-//import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -11,17 +11,17 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-black shadow">
+      <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between p-2 navbar-expand-lg bg-black shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link to="/" className="inline-block mr-4">
-              COSMIC MONKEY CLUB
-                {/* <StaticImage
-                  src="../images/csm-logo.png"
-                  alt="Cosmic Space Monkey Logo"
+                <StaticImage
+                  src="../images/cmc-logo1.png"
+                  alt="Cosmic Monkey Club logo"
                   placeholder="blurred"
-                  className="w-12"
-                /> */}
+                  layout="fullWidth"
+                  className="w-16"
+                />
             </Link>
             <button
               className="cursor-pointer text-xl leading-none lg:px-3 py-1 block lg:hidden"
