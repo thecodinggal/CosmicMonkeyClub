@@ -20,7 +20,7 @@ const IndexPage = () => {
         <FullImageSection />
         <div className="cotainer px-10 md:px-40">
           <FullTextImgSection
-            header="Welcome to the Cosmic Monkey Club"
+            header="Welcome to the Cosmic Monkey&nbsp;Club"
             body={[
               "Cosmic Monkey Club is a collection of 10,000 Cosmic Monkey NFTs- immutable digital collectibles traveling through the Ethereum Blockchain. Future membership of the club will grant exclusive access to reciprocal clubs, bi-monthly casino dividends, a travel agency, giveaways/events, and meet-ups with our favorite celebrities/athletes. Cosmic Monkey animated series is being produced enabling us to watch our monkeys through The Void. Alongside, we will host a podcast with the highest-honored celebrities, strictly from this website."
             ]}
@@ -76,7 +76,7 @@ const IndexPage = () => {
               "A: New members in the community will actively be whitelisted. The Cosmic Monkey Club is also hosting weekly competitions and winners will be automatically whitelisted. Spread the word on Discord & Twitter and if we see the effort, it will be reciprocated!",
               "",
               "Q: When is the official Cosmic Monkey launch?",
-              "A: We will be publishing the pre-sale date and official launch date after we complete our club technically and aesthetically. An estimated launch date between Oct-21st to Nov-15th.",
+              "A: We will be publishing the official launch date after we complete our club technically and aesthetically. An estimated launch date between Oct-21st to Nov-15th.",
             ]}
           />
            <Divider />

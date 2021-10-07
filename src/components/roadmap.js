@@ -19,7 +19,7 @@ export default function Roadmap() {
         >
           <div className="step one grid-rows-1 md:grid-rows-2">
             <div className="circle md:absolute md:right-2/4">
-              <span><FontAwesomeIcon className="text-7xl mb-4" icon={faSatellite} /></span>
+              <span className="text-7xl"><FontAwesomeIcon className="text-7xl mb-4" icon={faSatellite} /></span>
               <h4 className="text-4xl">
                 Phase 1 Missions
               </h4>
@@ -58,7 +58,7 @@ export default function Roadmap() {
 
           <div className="step two ">
             <div className="circle md:absolute md:left-2/4">
-              <span><FontAwesomeIcon icon={faMeteor} className="text-7xl mb-4" /></span>
+              <span className="text-7xl"><FontAwesomeIcon icon={faMeteor} className="text-7xl mb-4" /></span>
               <h4 className="text-4xl">
                 Phase 2 Missions
               </h4>
@@ -97,7 +97,7 @@ export default function Roadmap() {
 
           <div className="step three">
             <div className="circle md:absolute md:-translate-x-full md:right-2/4">
-              <span><FontAwesomeIcon className="text-7xl mb-4" icon={faGlobeEurope} /></span>
+              <span className="text-7xl"><FontAwesomeIcon className="text-7xl mb-4" icon={faGlobeEurope} /></span>
               <h4 className="text-4xl">
                 Phase 3 Missions
               </h4>

@@ -27,7 +27,7 @@ function Team() {
             className="pr-2"
           >
             {" "}
-            <FontAwesomeIcon icon={faTwitter} className="text-4xl" />
+            <span className="text-4xl"><FontAwesomeIcon icon={faTwitter} className="text-4xl" /></span>
           </a>
           <a
             href="https://www.linkedin.com/in/andrew-kraus-a2476a15a"
@@ -36,7 +36,7 @@ function Team() {
             className="pr-2"
           >
             {" "}
-            <FontAwesomeIcon icon={faLinkedin} className="text-4xl" />
+            <span className="text-4xl"><FontAwesomeIcon icon={faLinkedin} className="text-4xl" /></span>
           </a>
         </div>
         <div className=" col-span-1 text-center">
@@ -53,7 +53,7 @@ function Team() {
             className="pr-2"
           >
             {" "}
-            <FontAwesomeIcon icon={faInstagram} className="text-4xl" />
+            <span className="text-4xl"><FontAwesomeIcon icon={faInstagram} className="text-4xl" /></span>
           </a>
           <a
             href="https://www.linkedin.com/in/max-jacobs-819852203"
@@ -62,7 +62,7 @@ function Team() {
             className="pr-2"
           >
             {" "}
-            <FontAwesomeIcon icon={faLinkedin} className="text-4xl" />
+            <span className="text-4xl"><FontAwesomeIcon icon={faLinkedin} className="text-4xl" /></span>
           </a>
         </div>
       </div>
