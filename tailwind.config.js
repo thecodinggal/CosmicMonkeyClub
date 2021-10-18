@@ -25,6 +25,7 @@ module.exports = {
       black: '#000',
       spacePurple: '#0f001e',
       navy: 'navy',
+      gray: 'gray',
       
       primary: {
         bg: '#210049',

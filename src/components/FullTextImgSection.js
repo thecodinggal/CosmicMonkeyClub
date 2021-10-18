@@ -7,7 +7,7 @@ export default function FullTextImgSection({ header, body, decor }) {
       <div className="inline-block col-span-2">
         <h1 className="text-3xl font-bold italic text-primary-red">{header}</h1>
         {body.map((text, index) => (
-          <p className="leading-relaxed pt-2" key={index}>
+          <p className="leading-relaxed pt-2 pl-1" key={index}>
             {text}
           </p>
         ))}

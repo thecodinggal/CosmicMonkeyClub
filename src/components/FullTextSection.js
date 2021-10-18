@@ -10,7 +10,7 @@ export default function FullTextSection({ id, header, body, decor, headerColor }
         <div className={`leading-relaxed text-white ${decor || ""}`}>
         {body.map((text, index) => (
           <p
-            className={`pt-2`}
+            className={`pt-2 pl-1`}
             key={index}
           >
             {text}

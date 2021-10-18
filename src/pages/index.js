@@ -50,7 +50,7 @@ const IndexPage = () => {
       </div>
       <section className="container pb-4 ">
         <div className="text-center py-10 margin-auto border-b px-20">
-          <p>10,000 Space Monkeys were launched into The Void with efforts to create an appreciating asset with meaningful real-world&nbsp;incentives.
+          <p>10,000 Cosmic Monkeys were launched into The Void with efforts to create an appreciating asset with meaningful real-world&nbsp;incentives.
           </p>
         </div>
         <Footer />
