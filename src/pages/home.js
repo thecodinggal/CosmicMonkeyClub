@@ -11,6 +11,10 @@ import Minting from "../components/minting-closed";
 import Divider from "../components/divider";
 import sketchVideo from "../images/rocket_timeline.mp4";
 
+import FAQ from "../components/FAQ";
+
+import Mint from "../components/mintSection";
+
 // page
 const IndexPage = () => {
   return (
@@ -35,6 +39,7 @@ const IndexPage = () => {
             ]}
           />
           <Minting />
+          <Mint />
           <Divider />
           <Roadmap />
           <Divider />
@@ -52,29 +57,29 @@ const IndexPage = () => {
           <Divider />
           <Team />
           <Divider />
-          <FullTextSection
+          <FAQ
             id="FAQ"
             header="FAQ"
             headerColor="text-primary-lightblue"
             body={[
               "Q: How many Cosmic Monkeys entered The Void?",
               "A: There will be 10,000 Cosmic Monkeys that enter The Void and are available for tracking. Each monkey is illustrated and microchipped by Disney Illustrator Orlando De La Paz and Tobias Walker!",
-              " ",
+
               "Q: What is the maximum amount of Cosmic Monkeys that you can mint and track?",
               "A: Maximum number of Cosmic Monkeys available per transaction during mint is 15 Monkeys. You can own an unlimited amount of Cosmic Monkeys.",
-              " ",
+
               "Q: How much will each Cosmic Monkey cost at mint?",
               "A: The style of the mint will be a dutch auction allowing all members of the community the ability to join the club! Starting at 3ETH the cost of mint will be reduced until it reaches a floor of .05ETH over the span of 9 hours.",
-              " ",
+
               "Q: How do I mint a Cosmic Monkey?",
               "A: You will be able to mint the Monkeys on our website which will be linked throughout the Discord pre-launch. The Cosmic Monkey website will also have directions explaining how to mint and where to mint. Check our website and social handles(@CosmicMonkeyClub) frequently to stay informed!",
-              " ",
+
               "Q: What token/chain is the Cosmic Monkey Club hosted on?",
               "A: The Cosmic Monkey Club will be an Etherum-based (ERC-721) NFT collection",
-              " ",
+
               "Q: How can I get whitelisted?",
               "A: New members in the community will actively be whitelisted. The Cosmic Monkey Club is also hosting weekly competitions and winners will be automatically whitelisted. Spread the word on Discord & Twitter and if we see the effort, it will be reciprocated!",
-              " ",
+
               "Q: When is the official Cosmic Monkey launch?",
               "A: We will be publishing the official launch date after we complete our club technically and aesthetically. An estimated launch date between Oct-21st to Nov-15th."
             ]}

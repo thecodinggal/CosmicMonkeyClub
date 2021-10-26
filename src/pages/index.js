@@ -25,7 +25,6 @@ const IndexPage = () => {
       <div className="pt-4 lg:px-20">
         <div className="space stars1 animate-twinkle"></div>
         <div className="space stars2 z-0"></div>
-        <div className="space stars3 z-0"></div>
         <div className="text-right pr-6">
           <SocialMedia />
         </div>

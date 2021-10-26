@@ -4,123 +4,123 @@
 @tailwind utilities;
 
 @layer utilities {
-  .indent{
+  .indent {
     text-indent: 2em;
   }
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: local('Varela'), url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf) format('truetype');
+  font-family: "Roboto Condensed";
+  src: local("Varela"),
+    url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf)
+      format("truetype");
 }
-html{
-   scroll-behavior: smooth;
- }
- 
-body{
-    background: radial-gradient(circle at bottom, navy 0, black 100%);
-    font-family: 'Varela', sans-serif, serif;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .scrollDown{
-    bottom: 6vh;
-  }
+body {
+  background: radial-gradient(circle at bottom, navy 0, black 100%);
+  font-family: "Varela", sans-serif, serif;
+}
 
-  .welcomeBanner{
-      background: linear-gradient(#0b001a, #100022);
-  }
-  
-  .space {
-    background: transparent center / 200px 200px round;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -3;
-  }
-  
-  .stars1 {
-    /*animation: space 180s ease-in-out infinite;*/
-    z-index: -2;
-    background-image: 
-      radial-gradient(1px 1px at 25px 5px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 50px 25px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 125px 20px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 50px 75px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2px 2px at 15px 125px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 110px 80px, white, rgba(255, 255, 255, 0));
-  }
-  
-  .stars2 {
-    /* animation: space 180s ease-in-out 1; */
-    background-image: 
-      radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 100px 75px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 199px 100px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2px 2px at 20px 50px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 100px 5px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0));
-  }
-  
-  .stars3 {
-    /* animation: space 300s ease-in-out 1; */
-    background-image: 
-      radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 60px 170px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
-  } 
+.scrollDown {
+  bottom: 6vh;
+}
 
+.welcomeBanner {
+  background: linear-gradient(#0b001a, #100022);
+}
 
-  /* Test roadmap */
- #roadmap .circle {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    border: 2px solid currentColor;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 40px;
-    /*position: absolute;
+.space {
+  background: transparent center / 200px 200px round;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -3;
+}
+
+.stars1 {
+  z-index: -2;
+  background-image: radial-gradient(
+      1px 1px at 25px 5px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(1px 1px at 50px 25px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 125px 20px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 50px 75px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 15px 125px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2.5px 2.5px at 110px 80px, white, rgba(255, 255, 255, 0));
+}
+
+.stars2 {
+  background-image: radial-gradient(
+      1px 1px at 75px 125px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(1px 1px at 100px 75px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 199px 100px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 20px 50px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2.5px 2.5px at 100px 5px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 60px 170px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
+}
+
+/* Test roadmap */
+#roadmap .circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  /*position: absolute;
     left: 50%;*/
- }
- /* #roadmap :not(:nth-child(even)) .circle {
+}
+/* #roadmap :not(:nth-child(even)) .circle {
     transform: translateX(-100%);
  } */
 
- #roadmap article {
-    max-width: 410px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    /* left: 50%; */
-    position: relative;
- }
-
- #roadmap article header span {
-    display: flex;
-    font-size: 2em;
-    border-radius: 50%;
-    background-clip: padding-box;
-    padding: 14px;
-    transition: transform 0.4s;
-    color: #fff;
- }
- #roadmap article header h6 {
-    text-transform: uppercase;
-    margin: 0 30px;
-    padding: 5px;
- }
-
- #roadmap article header {
-   border-radius: 30px;
+#roadmap article {
+  max-width: 410px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  /* left: 50%; */
+  position: relative;
 }
 
- /* #roadmap :nth-child(even) article {
+#roadmap article header span {
+  display: flex;
+  font-size: 2em;
+  border-radius: 50%;
+  background-clip: padding-box;
+  padding: 14px;
+  transition: transform 0.4s;
+  color: #fff;
+}
+#roadmap article header h6 {
+  text-transform: uppercase;
+  margin: 0 30px;
+  padding: 5px;
+}
+
+#roadmap article header {
+  border-radius: 30px;
+}
+
+/* #roadmap :nth-child(even) article {
     text-align: right;
     transform: translateX(-100%);
  }
@@ -128,87 +128,124 @@ body{
     flex-flow: row-reverse;
  } */
 
- @media (min-width: 768px) {
-   #roadmap article[data-step="1"] {
-      margin-left: 20px;
-   }
-   #roadmap article[data-step="2"] {
-      margin-left: 50px;
-   }
-   #roadmap article[data-step="3"] {
-      margin-left: 46px;
-   }
-   #roadmap article[data-step="4"] {
-      margin-left: 0;
-   }
-   #roadmap article[data-step="5"] {
-      margin-left: -60px;
-   }
-   #roadmap article[data-step="6"] {
-      margin-left: -40px;
-   }
-   #roadmap article[data-step="7"] {
-      margin-left: -60px;
-   }
-   #roadmap article[data-step="8"] {
-      margin-left: -60px;
-   }
-   #roadmap article[data-step="9"] {
-      margin-left: 0;
-   }
-   #roadmap article[data-step="10"] {
-      margin-left: 50px;
-   }
-   #roadmap article[data-step="11"] {
-     margin-left: 20px;
+@media (min-width: 768px) {
+  #roadmap article[data-step="1"] {
+    margin-left: 20px;
+  }
+  #roadmap article[data-step="2"] {
+    margin-left: 50px;
+  }
+  #roadmap article[data-step="3"] {
+    margin-left: 46px;
+  }
+  #roadmap article[data-step="4"] {
+    margin-left: 0;
+  }
+  #roadmap article[data-step="5"] {
+    margin-left: -60px;
+  }
+  #roadmap article[data-step="6"] {
+    margin-left: -40px;
+  }
+  #roadmap article[data-step="7"] {
+    margin-left: -60px;
+  }
+  #roadmap article[data-step="8"] {
+    margin-left: -60px;
+  }
+  #roadmap article[data-step="9"] {
+    margin-left: 0;
+  }
+  #roadmap article[data-step="10"] {
+    margin-left: 50px;
+  }
+  #roadmap article[data-step="11"] {
+    margin-left: 20px;
   }
   #roadmap article[data-step="12"] {
-     margin-left: 50px;
+    margin-left: 50px;
   }
   #roadmap article[data-step="13"] {
-     margin-left: 46px;
+    margin-left: 46px;
   }
   #roadmap article[data-step="14"] {
-     margin-left: 0px;
+    margin-left: 0px;
   }
   #roadmap article[data-step="15"] {
-     margin-left: -60px;
+    margin-left: -60px;
   }
- }
+}
 
- #roadmap .one article header {
-    background-color: rgba(37, 59, 143, 0.3);
-    color: #007bff;
- }
- #roadmap .one article header span {
-    background-color: #007bff;
- }
- #roadmap .two article header {
-    background-color: rgba(0, 108, 99, 0.1);
-    color: #006c63;
- }
- #roadmap .two article header span {
-    background-color: #28a745;
- }
- #roadmap .three article header {
-    background-color: rgba(69, 80, 162, 0.1);
-    color: #dc3545;
- }
- #roadmap .three article header span {
-    background-color: #dc3545;
- }
- #roadmap article:hover header span {
-    transform: scale(1.2);
- }
- #roadmap article.active header {
-    border-bottom-right-radius: 0;
- }
- #roadmap article.active header span {
-    --opacity: 0.4;
-    transform: scale(1) !important;
- }
+#roadmap .one article header {
+  background-color: rgba(37, 59, 143, 0.3);
+  color: #007bff;
+}
+#roadmap .one article header span {
+  background-color: #007bff;
+}
+#roadmap .two article header {
+  background-color: rgba(0, 108, 99, 0.1);
+  color: #006c63;
+}
+#roadmap .two article header span {
+  background-color: #28a745;
+}
+#roadmap .three article header {
+  background-color: rgba(69, 80, 162, 0.1);
+  color: #dc3545;
+}
+#roadmap .three article header span {
+  background-color: #dc3545;
+}
+#roadmap article:hover header span {
+  transform: scale(1.2);
+}
+#roadmap article.active header {
+  border-bottom-right-radius: 0;
+}
+#roadmap article.active header span {
+  --opacity: 0.4;
+  transform: scale(1) !important;
+}
 
- #roadmap .two article.active header {
-    border-bottom-left-radius: 0;
- }
- 
+#roadmap .two article.active header {
+  border-bottom-left-radius: 0;
+}
+
+/* Accordion */
+.accordion-item {
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  max-height: 9999px;
+}
+
+.accordion-item.collapsed {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-title {
+  padding: 0.5em 1.5em;
+  border-radius: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-title::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid currentColor;
+}
+
+.accordion-title.open,
+.accordion-title.open::after {
+  content: "";
+  border-top: 0;
+  border-bottom: 5px solid;
+}
+
+.accordion-content {
+  padding: 1em 1.5em;
+}
