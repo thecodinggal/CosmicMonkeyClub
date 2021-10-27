@@ -1,17 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import FullTextSection from "./FullTextSection";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobeEurope, faMeteor, faRocket, faSatellite } from "@fortawesome/free-solid-svg-icons";
-import { Button } from "./button";
 
 export default function Roadmap() {
-  const [IsActive, setIsActive] = useState([false, false])
-  const toggleActive = (index) => {
-    let newArr = [...IsActive];
-    newArr[index] ? newArr[index] = false : newArr[index] = true
-    setIsActive(newArr);
-  }
-  console.log(IsActive)
   return (
     <section id="roadmap">
       <div className="mx-auto md:mx-0">
@@ -33,49 +25,34 @@ export default function Roadmap() {
               </h4>
             </div>
             <article data-step="1" className="md:left-2/4 pt-6 md:pt-0">
-              <header className="flex items-center" onClick={() => (toggleActive(0))}>
+              <header className="flex items-center">
                 <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
                 <h6>Public Mint/Half Metadata Reveal</h6>
               </header>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[0] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
             </article>
             <article data-step="2" className="md:left-2/4">
-              <header className="flex items-center " onClick={() => (toggleActive(1))}>
+              <header className="flex items-center ">
               <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
                 <h6>Full Metadata Reveal</h6>
               </header>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[1] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
             </article>
             <article data-step="3" className="md:left-2/4">
-              <header className="flex items-center " onClick={() => (toggleActive(2))}>
+              <header className="flex items-center ">
               <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
                 <h6>Reward All Holding Owners From Mint An Exclusive Poap *Poap* - https://Poap.Xyz/</h6>
               </header>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[2] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
             </article>
             <article data-step="4" className="md:left-2/4">
-              <header className="flex items-center " onClick={() => (toggleActive(3))}>
+              <header className="flex items-center ">
               <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
                 <h6>Exclusive Merchandise Drop to All Cosmic Monkey Holders</h6>
               </header>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[3] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
             </article>
             <article data-step="5" className="md:left-2/4">
-              <header className="flex items-center " onClick={() => (toggleActive(4))}>
+              <header className="flex items-center ">
               <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
                 <h6>Teaser Trailer for Animated Series (Introduce New Character)</h6>
               </header>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[4] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
             </article>
           </div>
 
