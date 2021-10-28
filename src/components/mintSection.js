@@ -9,7 +9,7 @@ export default function Mint() {
   // -- change these states if needed --
   const [currentPrice, setCurrentPrice] = useState(2.05); //fill this in with currentPrice
   const [countdownDate, setCountdownDate] = useState(
-    new Date("October 26, 2021 14:00:00").getTime()   //set the date to when you want to start the sale
+    new Date("October 27, 2021 21:00:00").getTime()   //set the date to when you want to start the sale
   );
   const [currentNum, setCurrentNum] = useState(6932);
   const [totalNum, setTotalNum] = useState(10000);

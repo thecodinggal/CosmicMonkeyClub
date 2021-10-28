@@ -75,29 +75,18 @@ body {
     radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
 }
 
-/* Test roadmap */
+/* Roadmap */
 #roadmap .circle {
   width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  border: 2px solid currentColor;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 40px;
-  /*position: absolute;
-    left: 50%;*/
 }
-/* #roadmap :not(:nth-child(even)) .circle {
-    transform: translateX(-100%);
- } */
-
 #roadmap article {
   max-width: 410px;
   margin-bottom: 20px;
   cursor: pointer;
-  /* left: 50%; */
   position: relative;
 }
 
@@ -119,14 +108,6 @@ body {
 #roadmap article header {
   border-radius: 30px;
 }
-
-/* #roadmap :nth-child(even) article {
-    text-align: right;
-    transform: translateX(-100%);
- }
- #roadmap :nth-child(even) article header {
-    flex-flow: row-reverse;
- } */
 
 @media (min-width: 768px) {
   #roadmap article[data-step="1"] {
@@ -176,24 +157,17 @@ body {
   }
 }
 
-#roadmap .one article header {
+#roadmap .one article header, #roadmap .two article header, #roadmap .three article header {
   background-color: rgba(37, 59, 143, 0.3);
-  color: #007bff;
 }
 #roadmap .one article header span {
-  background-color: #007bff;
+  background-color: #085856;
 }
-#roadmap .two article header {
-  background-color: rgba(0, 108, 99, 0.1);
-  color: #006c63;
-}
+
 #roadmap .two article header span {
-  background-color: #28a745;
+  background-color: #0b6add;
 }
-#roadmap .three article header {
-  background-color: rgba(69, 80, 162, 0.1);
-  color: #dc3545;
-}
+
 #roadmap .three article header span {
   background-color: #dc3545;
 }
