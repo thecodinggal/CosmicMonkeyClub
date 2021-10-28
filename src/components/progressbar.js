@@ -17,8 +17,8 @@ useEffect(() => {
           width: `${percentage}%`
         }}
         >
-          <div className="relative text-right -top-4">
-            <FontAwesomeIcon icon={faRocket} className="text-5xl" style={{transform: 'rotate(45deg)'}} />
+          <div className="relative text-right">
+            <span className="text-5xl -top-4"><FontAwesomeIcon icon={faRocket} style={{transform: 'rotate(45deg)'}} /></span>
           </div>
         </div>
       </div>
