@@ -11,14 +11,13 @@ useEffect(() => {
   return (
     <div className="py-4 text-white">
       <div className="bg-primary-red h-4 w-full rounded-xl">
-        {/*Progress of loading bar - ToDo: Add math for calculating what % the loading bar will be */}
         <div id="progress-done" className="bg-primary-lightblue w-5 h-full rounded-xl" style={{
           transition: '1s ease',
           width: `${percentage}%`
         }}
         >
           <div className="relative text-right">
-            <span className="text-5xl -top-4"><FontAwesomeIcon icon={faRocket} style={{transform: 'rotate(45deg)'}} /></span>
+            <span className="text-5xl relative -top-4"><FontAwesomeIcon icon={faRocket} style={{transform: 'rotate(45deg)'}} /></span>
           </div>
         </div>
       </div>
