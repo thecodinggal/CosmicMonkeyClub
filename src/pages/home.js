@@ -11,7 +11,7 @@ import Minting from "../components/minting-closed";
 import Divider from "../components/divider";
 import sketchVideo from "../images/rocket_timeline.mp4";
 
-import FAQ from "../components/FAQ";
+import Faq from "../components/FAQ";
 
 import Mint from "../components/mintSection";
 
@@ -38,7 +38,9 @@ const IndexPage = () => {
               "10,000 Cosmic Monkeys will be available to mint in a public Dutch Auction. The price of the Cosmic Monkeys will start at 3 ETH and gradually reduce to a price of 0.05 ETH over the span of 4 hours. This style of auction allows for the community to set a fair market value for the Cosmic Monkey NFTs and mitigates gas wars (Etherum transaction fees).",
             ]}
           />
+          
           <Minting />
+          <Divider />
           <Mint />
           <Divider />
           <Roadmap />
@@ -51,13 +53,13 @@ const IndexPage = () => {
               "Our artist, Tobias Walker, has gifted and illustrated each Cosmic Monkey with unique traits, characteristics, and backgrounds. Inspiration from Disney, highlights and differentiates each Cosmic Monkey from one another adhering to distinct rarity. Cosmic Monkey club is producing a public animated series featuring content from The Void. Illustration and design from our one and only, Tobias Walker.",
             ]}
           />
-          <video className="pt-6" controls>
+          <video className="pt-6" controls> { /* eslint-disable-line */ }
           <source src={sketchVideo} type="video/mp4" />
           </video>
           <Divider />
           <Team />
           <Divider />
-          <FAQ
+          <Faq
             id="FAQ"
             header="FAQ"
             headerColor="text-primary-lightblue"

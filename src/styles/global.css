@@ -90,7 +90,7 @@ body {
   position: relative;
 }
 
-#roadmap article header span {
+#roadmap article .header span {
   display: flex;
   font-size: 2em;
   border-radius: 50%;
@@ -99,13 +99,13 @@ body {
   transition: transform 0.4s;
   color: #fff;
 }
-#roadmap article header h6 {
+#roadmap article .header h6 {
   text-transform: uppercase;
   margin: 0 30px;
   padding: 5px;
 }
 
-#roadmap article header {
+#roadmap article .header {
   border-radius: 30px;
 }
 
@@ -157,32 +157,32 @@ body {
   }
 }
 
-#roadmap .one article header, #roadmap .two article header, #roadmap .three article header {
+#roadmap .one article .header, #roadmap .two article .header, #roadmap .three article .header {
   background-color: rgba(37, 59, 143, 0.3);
 }
-#roadmap .one article header span {
+#roadmap .one article .header span {
   background-color: #085856;
 }
 
-#roadmap .two article header span {
+#roadmap .two article .header span {
   background-color: #0b6add;
 }
 
-#roadmap .three article header span {
+#roadmap .three article .header span {
   background-color: #dc3545;
 }
-#roadmap article:hover header span {
+#roadmap article:hover .header span {
   transform: scale(1.2);
 }
-#roadmap article.active header {
+#roadmap article.active .header {
   border-bottom-right-radius: 0;
 }
-#roadmap article.active header span {
+#roadmap article.active .header span {
   --opacity: 0.4;
   transform: scale(1) !important;
 }
 
-#roadmap .two article.active header {
+#roadmap .two article.active .header {
   border-bottom-left-radius: 0;
 }
 

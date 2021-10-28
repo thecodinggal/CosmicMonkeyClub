@@ -74,7 +74,7 @@ export default function Mint() {
 
   return (
     <section>
-      <div className="p-4 mt-10 text-xl welcomeBanner">
+      <div className="p-4 mt-10 text-xl">
         <p className="text-3xl text-white text-center font-semibold italic">Public Sale</p>
         <div className="container justify-center display pt-4 block lg:flex">
           {/* Start of left (Mint Info) section */}
@@ -91,13 +91,8 @@ export default function Mint() {
             </div>
           </div>
           {/* Start of right (Mint) section */}
-          <div className=" text-black bg-primary-lightblue mt-4 md:mt-0 p-2 flex-auto lg:max-w-sm lg:ml-20">
-            <h3 className="mb-2 text-center text-3xl">Mint Cosmic Monkeys</h3>
-            <p className="leading-tight text-lg">
-              1. Enter the number of tokens to mint
-            </p>
-
-            <p className="text-base pt-2">Number of tokens to mint</p>
+          <div className="text-black bg-primary-lightblue mt-4 md:mt-0 p-2 flex-auto lg:max-w-sm lg:ml-20 rounded-lg text-center">
+            <h3 className="mb-2 text-3xl">Mint Cosmic Monkeys</h3>
             <input
               type="number"
               min="1"
@@ -107,16 +102,15 @@ export default function Mint() {
               onChange={(val) => {
                 setTokenQty(val.target.value);
               }}
-              className="pl-4 w-full bg-transparent border-b"
+              className="w-20 bg-transparent border-b text-center"
               style={{backgroundColor: 'transparent'}}
               required
             />
             <p className="text-sm">*required</p>
-            <p className="text-lg pt-4">
-              2. Click the button to mint{" "}
-              <span className="text-primary-red font-medium">{tokenQty}</span>&nbsp;Cosmic
-              Monkey{tokenQty === 1 ? "" : "s"} for a total of{" "}
-              <span className="text-primary-red font-medium">
+            <p className="text-lg pt-2">
+              Mint{" "}
+              <span className="text-primary-red font-medium text-xl">{tokenQty}</span> Monkey{tokenQty === 1 ? "" : "s"} for a total of{" "}
+              <span className="text-primary-red font-medium text-xl">
                 {(currentPrice * tokenQty).toFixed(2)}
               </span>
               &nbsp;ETH.
@@ -125,7 +119,7 @@ export default function Mint() {
               <Button href="/home/#mint">Mint Monkeys</Button>
             </div>
             <p className="text-base">
-              Note: You can mint a maximum number of 15 monkeys per transaction
+              15 Monkeys max per transaction
             </p>
           </div>
         </div>
