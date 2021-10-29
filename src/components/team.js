@@ -13,7 +13,7 @@ function Team() {
   return (
     <section>
       <FullTextSection id="team" header="The Team" body={[""]} />
-      <div className="container grid grid-cols-1 md:grid-cols-4 gap-x-6 md:px-40">
+      <div className="container grid grid-cols-1 md:grid-cols-4 gap-x-6 lg:px-30">
         <div className="col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
             src="../images/robot-monkey.png"

@@ -13,7 +13,6 @@ import sketchVideo from "../images/rocket_timeline.mp4";
 
 import Faq from "../components/FAQ";
 
-import Mint from "../components/mintSection";
 
 // page
 const IndexPage = () => {
@@ -40,8 +39,6 @@ const IndexPage = () => {
           />
           
           <Minting />
-          <Divider />
-          <Mint />
           <Divider />
           <Roadmap />
           <Divider />
