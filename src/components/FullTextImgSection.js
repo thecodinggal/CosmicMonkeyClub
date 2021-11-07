@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+import cmcGif from '../images/cmc-gif.gif';
 
 export default function FullTextImgSection({ header, body, decor }) {
   return (
@@ -12,20 +12,8 @@ export default function FullTextImgSection({ header, body, decor }) {
           </p>
         ))}
       </div>
-      <div className="inline-block inline-grid grid-cols-2 gap-x-2 col-span-1 text-white pt-10 md:pt-0">
-        <StaticImage
-          src="../images/horns-monkey.jpeg"
-          alt="Cosmic Monkey NFT"
-          layout="fullWidth"
-          className="max-w-lg"
-        />
-        <StaticImage
-          src="../images/masked-monkey.jpeg"
-          alt="Cosmic Monkey NFT"
-          layout="fullWidth"
-          className="max-w-lg"
-        />
-
+      <div className="inline-block inline-grid grid-cols-1 gap-x-2 col-span-1 text-white pt-10 md:pt-0 m-auto">
+        <img src={cmcGif} alt="Animated CMC NFTs" style={{maxHeight: '300px'}} />
       </div>
     </section>
   );
