@@ -40,35 +40,35 @@ export default function Navbar() {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="md:flex items-center">
-                <Link to="/home/#mint">
+                <Link to="/#mint">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Mint
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="/home/#roadmap">
+                <Link to="/#roadmap">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Roadmap
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="/home/#story">
+                <Link to="/#story">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Story
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="/home/#team">
+                <Link to="/#team">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     Team
                   </span>
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link to="/home/#FAQ">
+                <Link to="/#FAQ">
                   <span className="inline-block ml-2 px-3 py-4 lg:py-2 flex items-center text-sm uppercase font-bold hover:text-primary-lightblue">
                     FAQ
                   </span>
