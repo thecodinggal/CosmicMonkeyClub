@@ -12,6 +12,7 @@ import Divider from "../components/divider";
 import sketchVideo from "../images/rocket_timeline.mp4";
 
 import Faq from "../components/FAQ";
+import Partnerships from "../components/partnerships";
 
 
 // page
@@ -55,12 +56,13 @@ const IndexPage = () => {
           <source src={sketchVideo} type="video/mp4" />
           </video>
           <Divider />
+          <Partnerships />
+          <Divider />
           <Team />
           <Divider />
           <Faq
             id="FAQ"
             header="FAQ"
-            headerColor="text-primary-lightblue"
             body={[
               "Q: How many Cosmic Monkeys entered The Void?",
               "A: There will be 10,000 Cosmic Monkeys that enter The Void and are available for tracking. Each monkey is illustrated and microchipped by Disney Illustrator Orlando De La Paz and Tobias Walker!",

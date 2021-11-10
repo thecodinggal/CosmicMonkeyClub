@@ -83,6 +83,12 @@ body {
   justify-content: center;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .two > .circle {
+    transform: translate(30px, 10px);
+  }
+}
+
 #roadmap article {
   max-width: 410px;
   margin-bottom: 20px;
@@ -157,7 +163,9 @@ body {
   }
 }
 
-#roadmap .one article .header, #roadmap .two article .header, #roadmap .three article .header {
+#roadmap .one article .header,
+#roadmap .two article .header,
+#roadmap .three article .header {
   background-color: rgba(37, 59, 143, 0.3);
 }
 #roadmap .one article .header span {
