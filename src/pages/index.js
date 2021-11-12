@@ -37,6 +37,10 @@ const IndexPage = () => {
             headerColor="text-primary-lightblue"
             body={[
               "10,000 Cosmic Monkeys will be available to mint in a public Dutch Auction. The price of the Cosmic Monkeys will start at 3 ETH and gradually reduce to a price of 0.05 ETH over the span of 4 hours. This style of auction allows for the community to set a fair market value for the Cosmic Monkey NFTs and mitigates gas wars (Etherum transaction fees). The proceeds from mint will be allocated as per: 50% held in community wallet & 50% disbursed between CMC investors.",
+              "~Monkey Distribution:",
+              "~8,567/10,000 Cosmic Monkeys",
+              "~1,000/10,000 BALR Cosmic Monkeys",
+              "~433/10,000 433 Cosmic Monkeys"
             ]}
           />
           

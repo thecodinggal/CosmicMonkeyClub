@@ -8,14 +8,33 @@ export default function FullTextSection({ id, header, body, decor, headerColor }
           {header}
         </h1>
         <div className={`leading-relaxed text-white ${decor || ""}`}>
-        {body.map((text, index) => (
+        {/*         {
+            props.content.map(content => content.type === "card" ? (
+                    <Card title={content.title} />
+                ) : (
+                    <Content title={content.title} paragraph={content.guideline} />
+                )
+        )} */}
+        {body.map((text, index) =>
+        text.charAt(0) === '~' ? 
+        (
+          
+          <p
+            className={`pt-2 pl-1 text-center`}
+            key={index}
+          >
+            {text.substring(1)}
+          </p>
+        ) : (
+          
           <p
             className={`pt-2 pl-1`}
             key={index}
           >
             {text}
           </p>
-        ))}
+        )
+        )}
         </div>
       </div>
     </section>
