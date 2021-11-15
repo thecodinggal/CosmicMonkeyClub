@@ -69,7 +69,7 @@ const IndexPage = () => {
             header="FAQ"
             body={[
               "Q: How many Cosmic Monkeys entered The Void?",
-              "A: There will be 10,000 Cosmic Monkeys that enter The Void and are available for tracking. Each monkey is illustrated and microchipped by Disney Illustrator Orlando De La Paz and Tobias Walker!",
+              "A: There will be 10,000 Cosmic Monkeys that enter The Void and are available for tracking. Each monkey is illustrated and microchipped by Tobias Walker!",
 
               "Q: What is the maximum amount of Cosmic Monkeys that you can mint and track?",
               "A: Maximum number of Cosmic Monkeys available per transaction during mint is 15 Monkeys. You can own an unlimited amount of Cosmic Monkeys.",
