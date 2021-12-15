@@ -26,7 +26,7 @@ const IndexPage = () => {
           <FullTextImgSection
             header="Welcome to the Cosmic Monkey&nbsp;Club"
             body={[
-              "Cosmic Monkey Club is a collection of 10,000 Cosmic Monkey NFTs- immutable digital collectibles traveling through the Ethereum Blockchain. Future membership of the club will grant exclusive access to reciprocal clubs, a travel agency, giveaways, and meet-ups with our favorite celebrities. Cosmic Monkey animated series is being produced enabling us to watch our monkeys through The Void. Alongside, we will host a podcast with the highest-honored celebrities, strictly from this website. All aspects of our roadmap will be achieved and expended by the capital the community grosses from mint. A Cosmic Monkey community wallet will be established where 50% of the gross capital is from mint & 3% of secondary sales will be held.",
+              "Cosmic Monkey Club is a collection of 10,000 Cosmic Monkey NFTs- immutable digital collectibles traveling through the Ethereum Blockchain. Future membership of the club will grant exclusive access to reciprocal clubs, a travel agency, giveaways, and meet-ups with our favorite celebrities. Cosmic Monkey animated series is being produced enabling us to watch our monkeys through The Void. Alongside, we will host a podcast with the highest-honored celebrities, strictly from this website. All aspects of our roadmap will be achieved and expended by the capital the community grosses from mint. A Cosmic Monkey community wallet will be established where 50% of the gross capital from mint & 3% of secondary sales will be held.",
               "Community Wallet Address: CosmicMonkeyClub.eth"
             ]}
           />

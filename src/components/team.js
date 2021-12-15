@@ -17,7 +17,7 @@ function Team() {
       <div className="container grid grid-cols-1 md:grid-cols-5 gap-x-6 lg:px-30">
         <div className="col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
-            src="../images/robot-monkey.png"
+            src="../images/masked-monkey.jpeg"
             alt="Andrew Kraus Cosmic Monkey"
             layout="fullWidth"
           />
@@ -90,11 +90,11 @@ function Team() {
         </div>
         <div className="col-span-1 text-center">
           <StaticImage
-            src="../images/purple-monkey.png"
+            src="../images/purple-monkey.jpeg"
             alt="Katherine Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">Katherine W</h2>
+          <h2 className="text-3xl pt-4">Kat W</h2>
           <p className="pb-2">Web Development</p>
           <a
             href="https://twitter.com/thecodinggal"
@@ -118,7 +118,7 @@ function Team() {
 
         <div className="col-span-1 text-center">
           <StaticImage
-            src="../images/masked-monkey.jpeg"
+            src="../images/robot-monkey.png"
             alt="Piques Cosmic Monkey"
             layout="fullWidth"
           />
