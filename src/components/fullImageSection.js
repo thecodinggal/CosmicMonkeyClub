@@ -10,10 +10,10 @@ export default function FullImageSection() {
           {/* <div className="space stars1"></div>
       <div className="space stars2 z-0"></div> */}
       <section className="relative">
-        <div className="text-white text-4xl absolute bottom-3 w-full text-center z-50 block">
-        <FontAwesomeIcon icon={faAngleDoubleDown} className="transition duration-200 ease-in-out z-50 animate-slow-bounce"/>
+        <div className="text-white text-4xl absolute bottom-3 w-full text-center z-40 block">
+        <FontAwesomeIcon icon={faAngleDoubleDown} className="transition duration-200 ease-in-out z-40 animate-slow-bounce"/>
         </div>
-        <div className="hidden md:block absolute bottom-0 right-0 md:z-50">
+        <div className="hidden md:block absolute bottom-0 right-0 md:z-40">
         <StaticImage
                   src="../images/cmc-logo1.png"
                   alt="Cosmic Monkey Club logo"
