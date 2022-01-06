@@ -16,7 +16,7 @@ export default function FullImageSection() {
         <div className="h-full">
         <Parallax y={[-15,15]}>
         <StaticImage
-            src="../../images/BANNER.jpeg"
+            src="../images/BANNER.jpeg"
             alt="Cosmic Monkey Club"
           />
           </Parallax>
