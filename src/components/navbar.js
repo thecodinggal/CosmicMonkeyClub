@@ -11,7 +11,7 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between p-2 navbar-expand-lg bg-black shadow">
+      <nav className="relative z-50 w-full flex flex-wrap items-center justify-between navbar-expand-lg bg-black shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link to="/" className="inline-block mr-4">
@@ -19,7 +19,6 @@ export default function Navbar() {
                   src="../images/cmc-logo1.png"
                   alt="Cosmic Monkey Club logo"
                   placeholder="blurred"
-                  layout="fullWidth"
                   className="w-16"
                 />
             </Link>

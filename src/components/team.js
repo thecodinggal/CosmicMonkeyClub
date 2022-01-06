@@ -70,7 +70,7 @@ function Team() {
           </a>
         </div>
 
-        <div className="col-span-1 text-center">
+        <div className="col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
             src="../images/robot-monkey.png"
             alt="Piques Cosmic Monkey"

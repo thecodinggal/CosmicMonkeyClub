@@ -33,9 +33,11 @@ const IndexPage = () => {
         <meta name="author" content="Cosmic Labs LLC" />
       </Helmet>
       <main className="text-white">
-        <Navbar />
         <section className="mx-auto">
+        <div className="max-h-screen overflow-hidden">
+          <Navbar />
           <FullImageSection />
+        </div>
           <Partnerships />
           <div className="cotainer px-10 md:px-40">
             <Divider />

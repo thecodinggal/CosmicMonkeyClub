@@ -11,8 +11,9 @@ export default function FadeIn(props) {
               }
           });
       });
-      observer.observe(domRef.current);
-      return () => observer.unobserve(domRef.current);
+      var currentDomRef = domRef.current;
+      observer.observe(currentDomRef);
+      return () => observer.unobserve(currentDomRef);
     }, []);
     return (
       <div
