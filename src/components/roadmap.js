@@ -65,10 +65,10 @@ export default function Roadmap() {
             <article data-step="4" className="md:left-2/4">
               <button className="header flex items-center w-full" onClick={() => (toggleActive(3))}>
               <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
-                <h6 className="w-full">BALR Merchandise Giveaway!</h6>
+                <h6 className="w-full">Merchandise Giveaway!</h6>
               </button>
               <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[3] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              A limited number of Cosmonauts will receive free BALR apparel. This exclusive merchandise drop with BALR will only be available to Cosmic Monkey holders.</div>
+              A limited number of Cosmonauts will receive free CMC apparel. This exclusive merchandise drop will only be available to Cosmic Monkey holders.</div>
             </article>
             <article data-step="5" className="md:left-2/4">
               <button className="header flex items-center w-full" onClick={() => (toggleActive(4))}>
@@ -138,7 +138,7 @@ export default function Roadmap() {
             <article data-step="9" className="md:left-2/4 md:text-right transform md:-translate-x-full">
               <button className="header flex items-center md:flex-row-reverse w-full" onClick={() => (toggleActive(8))}>
               <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
-                <h6 className="w-full">Cosmic Monkey Club Treasure Hunt</h6>
+                <h6 className="w-full">CMC Treasure Hunt</h6>
               </button>
               <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[8] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
               The one that has created us all has lost the Cosmic's most sacred treasures. Who will be the one to find it!?

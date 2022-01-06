@@ -14,13 +14,11 @@ export default function Minting() {
               <h2 className="text-2xl underline">Presale:</h2>
               <p className="font-semibold">January 18th</p>
               <p>Price: 0.088 ETH</p>
-              <p>Qty: 2000</p>
             </td>
             <td className="pl-6 border-l">
               <h2 className="text-2xl underline">Public Sale:</h2>
               <p className="font-semibold">January 19th</p>
               <p>Price: 0.11 ETH</p>
-              <p>Qty: 8000</p>
             </td>
           </tr>
           </tbody>

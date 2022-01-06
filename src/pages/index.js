@@ -14,7 +14,6 @@ import Divider from "../components/divider";
 import sketchVideo from "../images/rocket_timeline.mp4";
 
 import Faq from "../components/FAQ";
-import Partnerships from "../components/partnerships";
 
 import ParallaxProvider from "react-scroll-parallax/cjs/components/ParallaxProvider";
 
@@ -38,16 +37,14 @@ const IndexPage = () => {
           <Navbar />
           <FullImageSection />
         </div>
-          <Partnerships />
-          <div className="cotainer px-10 md:px-40">
-            <Divider />
+          <div className="container pt-10 px-10 md:px-40">
             <FadeIn>
               <FullTextImgSection
                 header="Welcome aboard fellow&nbsp;simian."
                 body={[
                   "Cosmic Monkey Club is a collection of 10,000 Cosmic Monkey NFTs- immutable digital collectibles traveling through the Ethereum Blockchain.",
                   "Owning a Cosmic Monkey is more than a simple image of course.",
-                  "You are invited along on our journey to the world we create, together, as a community of fans first and foremost. Members get access to exclusive drops in collaboration with 433 & Balr, the CMC skybox at your favorite clubs home game, hangouts with the world's best footballers, club trips, parties and more. Follow along as CMC takes on Earth in the greatest football match of all time.",
+                  "You are invited along on our journey to the world we create, together, as a community of fans first and foremost. Members get access to exclusive drops, the CMC skybox at your favorite clubs home game, hangouts with the world's best footballers, club trips, parties and more. Follow along as CMC takes on Earth in the greatest football match of all time.",
                 ]}
               />
             </FadeIn>
