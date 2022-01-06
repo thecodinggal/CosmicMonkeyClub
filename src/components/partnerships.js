@@ -22,7 +22,7 @@ export default function Partnerships() {
         </div>
         <div>
         <a target="_blank" href="https://www.wannahaves.com/" rel="noreferrer"><StaticImage
-            src="../../images/wannahaves-logo.png"
+            src="../images/wannahaves-logo.png"
             alt="Wannahaves logo"
             layout="fullWidth"
           /></a>
@@ -37,7 +37,7 @@ export default function Partnerships() {
         <div className="my-auto">
         <a target="_blank" href="https://chain.link/" rel="noreferrer">
           <StaticImage
-            src="../../images/chainlink.png"
+            src="../images/chainlink.png"
             alt="Chainlink Logo"
             layout="fullWidth"
           /></a>
