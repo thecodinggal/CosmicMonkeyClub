@@ -6,9 +6,8 @@ export default function Dropdown({ id, header, body, headerColor }) {
     <section className="container pt-8" id={id}>
       <div>
         <h1
-          className={`${
-            headerColor || "text-primary-red"
-          } text-3xl font-bold italic`}
+          className={`
+            text-gradient text-3xl font-bold italic pb-4`}
         >
           {header}
         </h1>
@@ -22,6 +21,8 @@ export default function Dropdown({ id, header, body, headerColor }) {
               {body[index+1]}
             </Accordion>
             )}
+            else
+            return('')
           })}
         </div>
       </div>

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.cosmicmonkeyclub.com",
     title: "Cosmic Monkey Club",
-    description: "Welcome to the future of cosmic monkey NFTs",
+    description: "Welcome to the Cosmic Monkey Club Universe",
     author: "Cosmic Labs LLC",
   },
   plugins: [

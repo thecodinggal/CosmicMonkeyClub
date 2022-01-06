@@ -13,11 +13,16 @@ module.exports = {
         rocket: {
           '0%, 100%': { transform: 'translateX(0%)'},
           '50%': {transform: 'translateX(15%)'},
+        },
+        slowBounce: {
+          '0%, 100%': {transform: 'translateY(0%)'},
+          '50%': { transform: 'translateY(30%)'},
         }
       },
       animation: {
         twinkle: 'twinkle 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         rocket: 'rocket 7s cubic-bezier(0.4, 0, 0.6, 1) 40',
+        'slow-bounce': 'slowBounce 5s ease-in-out infinite',
       }
     },
     colors: {

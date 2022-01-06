@@ -3,9 +3,9 @@ import cmcGif from '../images/cmc-gif.gif';
 
 export default function FullTextImgSection({ header, body, decor }) {
   return (
-    <section className="container pt-8 grid grid-cols-1 md:grid-cols-3 gap-x-6">
+    <section id="intro" className="container pt-8 grid grid-cols-1 md:grid-cols-3 gap-x-6">
       <div className="inline-block col-span-2">
-        <h1 className="text-3xl font-bold italic text-primary-red">{header}</h1>
+        <h1 className="text-3xl font-bold italic text-gradient">{header}</h1>
         {body.map((text, index) => (
           <p className="leading-relaxed pt-2 pl-1" key={index}>
             {text}

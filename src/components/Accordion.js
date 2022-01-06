@@ -6,9 +6,9 @@ export default function Accordion({ title, children }) {
 
   return (
     <div className={`leading-relaxed text-white`}>
-      <div className="accordion-wrapper mt-2">
+      <div className="accordion-wrapper mb-6">
         <div
-          className={`accordion-title cursor-pointer border ${isOpen ? "open" : ""}`}
+          className={`accordion-title accordion-v2 cursor-pointer ${isOpen ? "open" : ""}`}
           onClick={() => setOpen(!isOpen)}
         >
           {title}

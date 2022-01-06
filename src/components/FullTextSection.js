@@ -4,7 +4,10 @@ export default function FullTextSection({ id, header, body, decor, headerColor }
   return (
     <section className="container pt-8" id={id}>
       <div>
-        <h1 className={`${headerColor || 'text-primary-red'} text-3xl font-bold italic`}>
+        {/* <h1 className={`${headerColor || 'text-primary-red'} text-3xl font-bold italic`}>
+          {header}
+        </h1> */}
+        <h1 className={`text-gradient text-3xl font-bold italic`}>
           {header}
         </h1>
         <div className={`leading-relaxed text-white ${decor || ""}`}>
