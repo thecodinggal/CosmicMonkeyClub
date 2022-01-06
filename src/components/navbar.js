@@ -73,7 +73,7 @@ export default function Navbar() {
                   </span>
                 </Link>
               </li>
-              <li className="lg: pl-10 lg:flex items-center text-center inline-block">
+              <li className="pb-4 lg:pb-0 pl-10 lg:flex items-center text-center inline-block">
               <SocialMedia />
               </li>
             </ul>
