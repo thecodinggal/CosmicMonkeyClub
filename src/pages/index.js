@@ -35,9 +35,8 @@ const IndexPage = () => {
         <section className="mx-auto">
         <div className="max-h-screen overflow-hidden">
           <Navbar />
-          <FullImageSection />
         </div>
-          <div className="container pt-10 px-10 md:px-40">
+          <div className="pt-10 px-10 md:px-40">
             <FadeIn>
               <FullTextImgSection
                 header="Welcome aboard fellow&nbsp;simian."
@@ -87,7 +86,7 @@ const IndexPage = () => {
               <Team />
             </FadeIn>
             <Divider />
-
+            <FadeIn>
             <Faq
               id="FAQ"
               header="FAQ"
@@ -114,6 +113,7 @@ const IndexPage = () => {
                 "A: The official launch date for presale is January 18th, and the public sale is January 19th.",
               ]}
             />
+            </FadeIn>
             <Divider />
             <Footer />
           </div>
