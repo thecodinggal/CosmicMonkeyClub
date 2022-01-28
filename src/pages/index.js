@@ -4,7 +4,7 @@ import FadeIn from "../components/fadein";
 import Helmet from "react-helmet";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import FullImageSection from "../components/fullImageSection";
+import FullImageSection from "../components/rocket";
 import FullTextImgSection from "../components/FullTextImgSection";
 import FullTextSection from "../components/FullTextSection";
 import Roadmap from "../components/roadmap";
@@ -17,7 +17,6 @@ import Faq from "../components/FAQ";
 
 import ParallaxProvider from "react-scroll-parallax/cjs/components/ParallaxProvider";
 
-// page
 const IndexPage = () => {
   return (
     <ParallaxProvider>
@@ -36,7 +35,9 @@ const IndexPage = () => {
         <div className="max-h-screen overflow-hidden">
           <Navbar />
         </div>
+        <FullImageSection />
           <div className="pt-10 px-10 md:px-40">
+
             <FadeIn>
               <FullTextImgSection
                 header="Welcome aboard fellow&nbsp;simian."
