@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.cosmicmonkeyclub.com",
+    siteUrl: "https://www.cosmicmonkeyclub.com", // probably need to change this
     title: "Cosmic Monkey Club",
     description: "Welcome to the Cosmic Monkey Club Universe",
     author: "Cosmic Labs LLC",
@@ -23,9 +23,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-s3",
       options: {
-        bucketName: "cosmicmonkeyclub.com",
+        bucketName: "cosmicmonkeyclub.com", // here too
         protocol: "https",
-        hostname: "www.cosmicmonkeyclub.com",
+        hostname: "www.cosmicmonkeyclub.com", // here too
       },
     },
     {
