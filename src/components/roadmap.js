@@ -79,24 +79,7 @@ export default function Roadmap() {
               The Treasury's money will now be controlled by the community!
               </div>
             </article>
-            {/* <article data-step="5-2" className="md:left-2/4">
-              <button className="header flex items-center w-full" onClick={() => (toggleActive(15))}>
-              <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
-                <h6 className="w-full">Title here</h6>
-              </button>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[15] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Text here
-              </div>
-            </article>
-            <article data-step="5-3" className="md:left-2/4">
-              <button className="header flex items-center w-full" onClick={() => (toggleActive(16))}>
-              <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
-                <h6 className="w-full">Title here</h6>
-              </button>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[16] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Text here
-              </div>
-            </article> */}
+
           </div>
 
           <div className="step two ">
@@ -144,16 +127,6 @@ export default function Roadmap() {
               The one that has created us all has lost the Cosmic's most sacred treasures. Who will be the one to find it!?
               </div>
             </article>
-            {/* <article data-step="10" className="md:left-2/4 md:text-right transform md:-translate-x-full">
-              <button className="header flex items-center md:flex-row-reverse w-full" onClick={() => (toggleActive(9))}>
-              <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
-                <h6 className="w-full">Title</h6>
-              </button>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[9] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Text here
-              </div>
-            </article>
-             */}
           </div>
 
           <div className="step three">
@@ -201,15 +174,6 @@ export default function Roadmap() {
               Compete against other simians for a chance to go to the World Cup 2022 in Qatar!
               </div>
             </article>
-            {/* <article data-step="15" className="md:left-2/4">
-              <button className="header flex items-center w-full" onClick={() => (toggleActive(14))}>
-              <span><FontAwesomeIcon icon={faRocket} className="fa-rotate-90" /></span>
-                <h6 className="w-full">Title Here</h6>
-              </button>
-              <div className={`roadmap-body text-sm pl-4 transition-height transition-opacity duration-500 ease-in-out ${IsActive[14] ? "pt-4 opacity-1" :"overflow-hidden h-0 opacity-0"}`}>
-              Text here
-              </div>
-            </article> */}
           </div>
         </div>
         <div className="text-center font-bold">And many more surprises along the way! Wen Roadmap 2.0?</div>

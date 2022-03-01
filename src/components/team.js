@@ -18,13 +18,13 @@ function Team() {
         <div className="col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
             src="../images/masked-monkey.jpeg"
-            alt="Andrew Kraus Cosmic Monkey"
+            alt="Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">Andrew Kraus</h2>
+          <h2 className="text-3xl pt-4">Name Removed</h2>
           <p className="pb-2">Co-Founder</p>
           <a
-            href="https://twitter.com/krauscrypto"
+            href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -33,7 +33,7 @@ function Team() {
             <span className="text-4xl"><FontAwesomeIcon icon={faTwitter} className="text-4xl" /></span>
           </a>
           <a
-            href="https://www.linkedin.com/in/andrew-kraus-a2476a15a"
+            href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -45,13 +45,13 @@ function Team() {
         <div className=" col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
             src="../images/skeleton-monkey.jpeg"
-            alt="Max Jacobs Cosmic Monkey"
+            alt="Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">Max Jacobs</h2>
+          <h2 className="text-3xl pt-4">Ape 2</h2>
           <p className="pb-2">Co-Founder</p>
           <a
-            href="https://instagram.com/maxjacobs_?utm_medium=copy_link"
+            href="https://instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -60,7 +60,7 @@ function Team() {
             <span className="text-4xl"><FontAwesomeIcon icon={faInstagram} className="text-4xl" /></span>
           </a>
           <a
-            href="https://www.linkedin.com/in/max-jacobs-819852203"
+            href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -73,13 +73,13 @@ function Team() {
         <div className="col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
             src="../images/robot-monkey.png"
-            alt="Piques Cosmic Monkey"
+            alt="Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">Piques</h2>
+          <h2 className="text-3xl pt-4">Strategy Ape</h2>
           <p className="pb-2">Brand Strategy</p>
           <a
-            href="https://twitter.com/piques15"
+            href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -88,7 +88,7 @@ function Team() {
             <span className="text-4xl"><FontAwesomeIcon icon={faTwitter} className="text-4xl" /></span>
           </a>
           <a
-            href="https://www.facebook.com/jonpaulpiques"
+            href="https://www.facebook.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -97,7 +97,7 @@ function Team() {
             <span className="text-4xl"><FontAwesomeIcon icon={faFacebook} className="text-4xl" /></span>
           </a>
           <a
-            href="https://www.instagram.com/piques/"
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -110,13 +110,13 @@ function Team() {
         <div className="col-span-1 text-center pb-10 md:pb-0">
           <StaticImage
             src="../images/space-monkey.png"
-            alt="Tobias Walker Cosmic Monkey"
+            alt="Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">Tobias Walker</h2>
+          <h2 className="text-3xl pt-4">Ape Artist</h2>
           <p className="pb-2">Illustration & Design</p>
           <a
-            href="https://tobias-walker.com"
+            href="https://google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"
@@ -128,13 +128,13 @@ function Team() {
         <div className="col-span-1 text-center">
           <StaticImage
             src="../images/purple-monkey.jpeg"
-            alt="FrequenC Cosmic Monkey"
+            alt="Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">FrequenC Media</h2>
+          <h2 className="text-3xl pt-4">Media Ape</h2>
           <p className="pb-2">Marketing</p>
           <a
-            href="https://frequenc.com/"
+            href="https://www.google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="pr-2"

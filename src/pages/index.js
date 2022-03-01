@@ -71,7 +71,7 @@ const IndexPage = () => {
                 header="Our Journey"
                 headerColor="text-primary-lightblue"
                 body={[
-                  "Our artist, Tobias Walker, has gifted and illustrated each Cosmic Monkey with unique traits, characteristics, and backgrounds. Inspiration from Disney, highlights and differentiates each Cosmic Monkey from one another adhering to distinct rarity. Cosmic Monkey club is producing a public animated series featuring content from The Void. Illustration and design from our one and only, Tobias Walker.",
+                  "Our artist has gifted and illustrated each Cosmic Monkey with unique traits, characteristics, and backgrounds. Inspiration from Disney, highlights and differentiates each Cosmic Monkey from one another adhering to distinct rarity. Cosmic Monkey club is producing a public animated series featuring content from The Void. Illustration and design from our one and only.",
                 ]}
               />
 
