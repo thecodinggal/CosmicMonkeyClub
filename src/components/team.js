@@ -21,7 +21,7 @@ function Team() {
             alt="Cosmic Monkey"
             layout="fullWidth"
           />
-          <h2 className="text-3xl pt-4">Name Removed</h2>
+          <h2 className="text-3xl pt-4">Removed</h2>
           <p className="pb-2">Co-Founder</p>
           <a
             href="https://twitter.com/"
