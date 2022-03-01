@@ -2,6 +2,8 @@
   CMC Website
 </h1>
 
+<p>Live dev version is visible [here](https://cosmicmonkeyclub.gatsbyjs.io/) </p>
+
 ## 🚀 Quick start
 
     Navigate into your new site’s directory and start it up.
