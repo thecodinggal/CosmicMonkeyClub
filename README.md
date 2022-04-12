@@ -10,7 +10,6 @@
 
     ```shell
     npm install
-    cd cosmic
     npm run develop
     ```
 
